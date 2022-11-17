@@ -1,0 +1,16 @@
+PODS:
+  - DetectTest (0.1.0)
+
+DEPENDENCIES:
+  - DetectTest (from `../`)
+
+EXTERNAL SOURCES:
+  DetectTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DetectTest: 85e53e045506b24b2bc204942d272a70d59b71e6
+
+PODFILE CHECKSUM: b239707152f396042fe35802cf4ef6931246c447
+
+COCOAPODS: 1.11.3
