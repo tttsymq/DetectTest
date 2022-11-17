@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cihui' => 'txwz8812@163.com' }
-  s.source           = { :git => 'https://github.com/cihui/DetectTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tttsymq/DetectTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 #  s.library = "z"
   s.libraries   = 'resolv','z','c++.1','c++abi','z.1.2.8'
