@@ -1,5 +1,5 @@
 PODS:
-  - DetectTest (0.1.0)
+  - DetectTest (0.1.3)
 
 DEPENDENCIES:
   - DetectTest (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DetectTest: 85e53e045506b24b2bc204942d272a70d59b71e6
+  DetectTest: cc16f1396d49bcb0189343b67fe9429137ecb3d0
 
 PODFILE CHECKSUM: b239707152f396042fe35802cf4ef6931246c447
 

@@ -509,7 +509,10 @@
 				GCC_PREFIX_HEADER = "DetectTest/DetectTest-Prefix.pch";
 				INFOPLIST_FILE = "DetectTest/DetectTest-Info.plist";
 				MODULE_NAME = ExampleApp;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.living.release;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -528,7 +531,10 @@
 				GCC_PREFIX_HEADER = "DetectTest/DetectTest-Prefix.pch";
 				INFOPLIST_FILE = "DetectTest/DetectTest-Info.plist";
 				MODULE_NAME = ExampleApp;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.living.release;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
