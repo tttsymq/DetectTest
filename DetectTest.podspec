@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DetectTest'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of DetectTest.'
 
 # This description is used to generate tags and improve search results.
@@ -42,7 +42,11 @@ TODO: Add long description of the pod here.
 ##      'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libresolv $(SDKROOT)/usr/include/libz $(SDKROOT)/usr/include/libc++.1 $(SDKROOT)/usr/include/libc++abi $(SDKROOT)/usr/include/libz.1.2.8',
 #  }
 
-   s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC']}
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = {
+       'OTHER_LDFLAGS' => ['-lObjC'],
+       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+   }
 
 #   s.pod_target_xcconfig = {
 #       "LIBRARY_SEARCH_PATHS" => [
